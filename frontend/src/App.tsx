@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
-import { GameDashboard } from './components/GameDashboard';
-import { QuestBoard } from './components/QuestBoard';
-import { Achievements } from './components/Achievements';
-import { Shop } from './components/Shop';
-import { LeaderBoard } from './components/LeaderBoard';
-import { HomePage } from './components/HomePage';
-import { LoginPage } from './components/LoginPage';
-import { PlaidConnectionPage } from './components/PlaidConnectionPage';
-import { ProfilePage } from './components/ProfilePage';
-import { loadGameState, saveGameState } from './components/databaseService';
+import { GameDashboard } from '../components/GameDashboard';
+import { QuestBoard } from '../components/QuestBoard';
+import { Achievements } from '../components/Achievements';
+import { Shop } from '../components/Shop';
+import { LeaderBoard } from '../components/LeaderBoard';
+import { HomePage } from '../components/HomePage';
+import { LoginPage } from '../components/LoginPage';
+import { PlaidConnectionPage } from '../components/PlaidConnectionPage';
+import { ProfilePage } from '../components/ProfilePage';
+import { loadGameState, saveGameState } from '../components/databaseService';
 
 import {
   Gamepad2,

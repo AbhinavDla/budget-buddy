@@ -1,7 +1,15 @@
 {
-  "dependencies": {
-    "@supabase/supabase-js": "^2.97.0",
-    "body-parser": "^2.2.2",
-    "dotenv": "^17.3.1"
+  "name": "budget-buddy",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "backend": "npm --prefix backend run server",
+    "frontend": "npm --prefix frontend run dev",
+    "dev": "concurrently \"npm --prefix backend run server\" \"npm --prefix frontend run dev\"",
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   }
 }
